@@ -1,4 +1,4 @@
-```
+
 # Projeto de Deploy com AWS ECS, Docker e Fargate
 
 Este guia detalha como construir, empacotar e implantar um sistema composto por um **Frontend em Angular**, um **Backend em Flask**, e uma **API de Relatórios em Flask** utilizando **Docker** e **AWS ECS (Elastic Container Service)** com **Fargate**. Além disso, integraremos um banco de dados **PostgreSQL** hospedado no **AWS RDS**.
@@ -532,4 +532,4 @@ Seguindo este guia, você conseguirá implantar e gerenciar seu sistema no **AWS
 - [Docker Documentation](https://docs.docker.com/)
 - [Flask Documentation](https://flask.palletsprojects.com/)
 
-```
+
