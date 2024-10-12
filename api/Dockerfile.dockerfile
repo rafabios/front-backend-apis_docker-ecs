@@ -4,6 +4,10 @@ FROM python:3.9-slim
 # Criar diretório de trabalho
 WORKDIR /app
 
+# instalar depedencias do postgres
+
+RUN apt-get update && apt-get install -y postgresql postgresql-contrib
+
 # Instalar dependências
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
